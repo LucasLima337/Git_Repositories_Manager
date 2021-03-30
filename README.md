@@ -1,6 +1,6 @@
-# Gerenciador de Repositórios Git
+# Git Repositories Manager
 
-### Tecnologias Utilizadas 💻🛠:
+### Tecnologies 💻🛠:
 [![javascript](https://img.shields.io/static/v1?label=&message=Javascript&color=8A8100&style=flat&logo=JavaScript)](https://github.com/LucasLima337)
 [![node](https://img.shields.io/static/v1?label=&message=NodeJS&color=094B00&style=flat&logo=node.js)](https://github.com/LucasLima337)
 
@@ -8,29 +8,29 @@
 [![yarn](https://img.shields.io/static/v1?label=&message=Yarn&color=2C8EFF&style=flat&logo=Yarn)](https://github.com/LucasLima337)
 
 
-### Funcionalidades 🔎💡:
-**Função**   | **Método** | **URL**
+### Features 🔎💡:
+**Function**   | **Method** | **URL**
 ---------    | ------     | -------
-Listar | GET | /repositories
-Adicionar | POST | /repositories
-Editar | PUT | /repositories/:id
-Excluir | DELETE | /repositories/:id
-Dar Likes | POST | /repositories/:id/like
+List | GET | /repositories
+Add | POST | /repositories
+Edit | PUT | /repositories/:id
+Delete | DELETE | /repositories/:id
+Likes | POST | /repositories/:id/like
 
 
-### Parâmetros ⚙:
-* Listar:
-  * Parâmetro Query "title";
-  * Permite buscar por repositórios com um determinado título.
+### Parameters ⚙:
+* List:
+  * Query Parameter "title";
+  * It is able to search for repositories with a specific title.
 
-* Adicionar:
-  * Parâmtro Body "title", "url", "techs";
-  * Permite enviar o título, url do repositório e suas tecnologias.
+* Add:
+  * Body Parameter "title", "url", "techs";
+  * It is able to add a repository with a title, url and their technologies.
 
-* Editar e Excluir:
-  * Parâmetro Route "id";
-  * Permite editar um repositório através do ID.
+* Edit and Delete:
+  * Route Parameter "id";
+  * It is able to edit or delete a repository by ID.
 
-* Dar Likes:
-  * Parâmetro Route "id";
-  * Permite dar likes em um repositório através do ID.
+* Likes:
+  * Route Parameter "id";
+  * It is able to like a repository by ID.
