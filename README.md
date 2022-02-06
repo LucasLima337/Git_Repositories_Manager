@@ -1,6 +1,6 @@
 # Git Repositories Manager
 
-### Tecnologies 💻🛠:
+### Technologies 💻🛠:
 [![javascript](https://img.shields.io/static/v1?label=&message=Javascript&color=8A8100&style=flat&logo=JavaScript)](https://github.com/LucasLima337)
 [![node](https://img.shields.io/static/v1?label=&message=NodeJS&color=094B00&style=flat&logo=node.js)](https://github.com/LucasLima337)
 
